@@ -1,0 +1,13 @@
+Season_Code,Week_Index,Weekday,Morning_Psalm_Ref,Morning_OT_Ref,Morning_NT_Ref,Evening_Psalm_Ref,Evening_OT_Ref,Evening_NT_Ref,Notes
+EP,1,Mon,3;4,Isaiah 40:1-11,Ephesians 4:1-16,29,Isaiah 40:12-26,Ephesians 4:17-32,
+EP,1,Tue,5;6,Isaiah 41:8-20,Ephesians 5:1-14,30,Isaiah 41:21-29,Ephesians 5:15-33,
+EP,1,Wed,7;8,Isaiah 42:1-9,Ephesians 6:1-9,31,Isaiah 42:10-17,Ephesians 6:10-24,
+EP,1,Thu,9,Isaiah 42:18-25,Philippians 1:1-18,33,Isaiah 43:1-13,Philippians 1:19-30,
+EP,1,Fri,10,Isaiah 43:14-28,Philippians 2:1-11,34,Isaiah 44:1-8,Philippians 2:12-30,
+EP,1,Sat,11,Isaiah 44:9-20,Philippians 3:1-11,35,Isaiah 44:21-28,Philippians 3:12-21,
+LN,1,Mon,32,Genesis 3:1-7,Matthew 4:1-11,34,Joel 2:12-17,2 Corinthians 6:1-10,
+LN,1,Tue,35,Genesis 37:12-28,Luke 15:11-32,36,Genesis 37:29-36,Romans 8:1-11,
+LN,1,Wed,38,Isaiah 53:1-9,Matthew 6:1-18,39,Isaiah 53:10-12,Matthew 6:19-34,
+LN,1,Thu,40,Exodus 12:1-14,John 6:27-40,41,Exodus 12:21-28,John 6:41-59,
+LN,1,Fri,42,Isaiah 58:1-12,Luke 18:9-14,43,Isaiah 58:13-14,Luke 18:35-43,
+LN,1,Sat,44,Hosea 6:1-6,Matthew 9:10-17,45,Hosea 14:1-9,Romans 6:1-11,

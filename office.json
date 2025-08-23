@@ -2,64 +2,169 @@
   "morning": {
     "title": "Daily Morning Prayer",
     "sections": [
-      {"h3":"Opening Sentence","rubric":"Seasonal sentence here","text":"The LORD is in his holy temple; let all the earth keep silence before him."},
-      {"h3":"Invitation to Confession","text":"Let us humbly confess our sins unto Almighty God."},
-      {"h3":"Confession","text":"Almighty and most merciful Father, we have erred and strayed from thy ways like lost sheep..."},
-      {"h3":"Absolution / Remission","rubric":"If a priest is present: Absolution; else: Declaration of Remission.","text":"Almighty God, our heavenly Father..."},
-      {"h3":"The Lord’s Prayer","text":"Our Father, who art in heaven..."},
-      {"h3":"Venite / Jubilate","type":"psalm","lines":["O come, let us sing unto the LORD;","let us heartily rejoice in the strength of our salvation."]},
-      {"h3":"Psalms Appointed","rubric":"From the daily lectionary; conclude with Gloria Patri.","text":"[Psalms will appear here.]"},
-      {"h3":"First Lesson","type":"lesson","text":"A reading from the Old Testament."},
-      {"h3":"Canticle after First Lesson","type":"canticle","text":"Te Deum / Benedicite / as appointed."},
-      {"h3":"Second Lesson","type":"lesson","text":"A reading from the New Testament."},
-      {"h3":"Canticle after Second Lesson","type":"canticle","text":"Benedictus Dominus Deus / as appointed."},
-      {"h3":"The Apostles’ Creed","text":"I believe in God the Father Almighty..."},
-      {"h3":"Prayers & Collects","text":"Kyrie – Lord’s Prayer – Suffrages – Collect of the Day – additional collects."}
+      {
+        "h3": "Opening Sentence",
+        "rubric": "Replace with the seasonal opening sentence.",
+        "text": "The LORD is in his holy temple; let all the earth keep silence before him."
+      },
+      {
+        "h3": "Invitation to Confession",
+        "text": "Let us humbly confess our sins unto Almighty God."
+      },
+      {
+        "h3": "Confession",
+        "text": "Almighty and most merciful Father, we have erred and strayed from thy ways like lost sheep..."
+      },
+      {
+        "h3": "Absolution / Declaration of Remission",
+        "rubric": "If a priest is present, the Absolution may be pronounced; otherwise the Declaration of Remission follows.",
+        "text": "Almighty God, our heavenly Father, who of his great mercy..."
+      },
+      {
+        "h3": "The Lord’s Prayer",
+        "text": "Our Father, who art in heaven..."
+      },
+      {
+        "h3": "Versicles and Responses",
+        "text": "O Lord, open thou our lips. And our mouth shall show forth thy praise."
+      },
+      {
+        "h3": "Venite / Jubilate",
+        "type": "psalm",
+        "lines": [
+          "O come, let us sing unto the LORD;",
+          "let us heartily rejoice in the strength of our salvation."
+        ]
+      },
+      {
+        "h3": "Psalms Appointed",
+        "rubric": "From the daily lectionary; conclude with the Gloria Patri.",
+        "text": "[Psalms for the day.]"
+      },
+      {
+        "h3": "First Lesson",
+        "type": "lesson",
+        "text": "[First reading text or reference.]"
+      },
+      {
+        "h3": "Canticle after First Lesson",
+        "type": "canticle",
+        "text": "Te Deum laudamus / Benedicite, omnia opera / or other as appointed."
+      },
+      {
+        "h3": "Second Lesson",
+        "type": "lesson",
+        "text": "[Second reading text or reference.]"
+      },
+      {
+        "h3": "Canticle after Second Lesson",
+        "type": "canticle",
+        "text": "Benedictus Dominus Deus / or other as appointed."
+      },
+      {
+        "h3": "The Apostles’ Creed",
+        "text": "I believe in God the Father Almighty..."
+      },
+      {
+        "h3": "Prayers and Collects",
+        "text": "Kyrie – Lord’s Prayer – Suffrages – Collect of the Day – additional collects and intercessions."
+      }
     ]
   },
-  "midday": { "title":"Prayers at Midday", "sections":[
-    {"h3":"Opening","text":"O God, make speed to save us. O Lord, make haste to help us."},
-    {"h3":"Psalm","type":"psalm","lines":["Psalm 121 (or a short psalm as appointed)."]},
-    {"h3":"Reading","type":"lesson","text":"Short lesson."},
-    {"h3":"Prayers","text":"Lord, have mercy. Christ, have mercy. Lord, have mercy."},
-    {"h3":"Conclusion","text":"Let us bless the Lord. Thanks be to God."}
-  ]},
-  "evening": { "title":"Daily Evening Prayer", "sections":[
-    {"h3":"Opening Sentence","rubric":"Seasonal sentence here.","text":"Jesus said, 'I am the light of the world…'"},
-    {"h3":"Confession","text":"Almighty and most merciful Father..."},
-    {"h3":"Absolution / Remission","text":"Grant, we beseech thee, merciful Lord..."},
-    {"h3":"The Lord’s Prayer","text":"Our Father, who art in heaven..."},
-    {"h3":"Psalms Appointed","text":"[Psalms for the evening Office.]"},
-    {"h3":"First Lesson","type":"lesson","text":"A reading from Scripture."},
-    {"h3":"Canticle after First Lesson","type":"canticle","text":"Magnificat / Cantate Domino / etc."},
-    {"h3":"Second Lesson","type":"lesson","text":"A reading from Scripture."},
-    {"h3":"Canticle after Second Lesson","type":"canticle","text":"Nunc dimittis / Deus Misereatur / etc."},
-    {"h3":"Creed","text":"The Apostles’ Creed."},
-    {"h3":"Prayers & Collects","text":"Suffrages – Collect of the Day – evening collects."}
-  ]},
-  "compline": { "title":"Compline", "sections":[
-    {"h3":"Opening","text":"The Lord Almighty grant us a quiet night and a perfect end. Amen."},
-    {"h3":"Confession","text":"Most merciful God, we confess to you..."},
-    {"h3":"Psalms","type":"psalm","lines":["Psalms 4, 31:1–6, 91, or 134 as appointed."]},
-    {"h3":"Short Lesson","type":"lesson","text":"Be sober, be watchful..."},
-    {"h3":"Responsory & Nunc Dimittis","type":"canticle","text":"Into your hands, O Lord, I commend my spirit..."},
-    {"h3":"Collects","text":"Visit this place, O Lord... / keep us with perpetual light..."},
-    {"h3":"Conclusion","text":"Let us bless the Lord. Thanks be to God."}
-  ]},
+
+  "midday": {
+    "title": "Prayers at Midday",
+    "sections": [
+      { "h3": "Opening", "text": "O God, make speed to save us. O Lord, make haste to help us." },
+      { "h3": "Psalm", "type": "psalm", "lines": ["Psalm 121 (or a short psalm as appointed)."] },
+      { "h3": "Reading", "type": "lesson", "text": "Short lesson." },
+      { "h3": "Prayers", "text": "Lord, have mercy. Christ, have mercy. Lord, have mercy." },
+      { "h3": "Conclusion", "text": "Let us bless the Lord. Thanks be to God." }
+    ]
+  },
+
+  "evening": {
+    "title": "Daily Evening Prayer",
+    "sections": [
+      {
+        "h3": "Opening Sentence",
+        "rubric": "Replace with the seasonal opening sentence.",
+        "text": "Jesus spoke, saying, 'I am the light of the world...'"
+      },
+      { "h3": "Invitation to Confession", "text": "Let us humbly confess our sins to Almighty God." },
+      { "h3": "Confession", "text": "Almighty and most merciful Father..." },
+      { "h3": "Absolution / Declaration of Remission", "text": "Grant, we beseech thee, merciful Lord..." },
+      { "h3": "The Lord’s Prayer", "text": "Our Father, who art in heaven..." },
+      { "h3": "Versicles and Responses", "text": "O Lord, open thou our lips. And our mouth shall show forth thy praise." },
+      { "h3": "Psalms Appointed", "text": "[Psalms for the evening Office.]" },
+      { "h3": "First Lesson", "type": "lesson", "text": "[First reading text or reference.]" },
+      { "h3": "Canticle after First Lesson", "type": "canticle", "text": "Magnificat / Cantate Domino / etc." },
+      { "h3": "Second Lesson", "type": "lesson", "text": "[Second reading text or reference.]" },
+      { "h3": "Canticle after Second Lesson", "type": "canticle", "text": "Nunc dimittis / Deus Misereatur / etc." },
+      { "h3": "The Apostles’ Creed", "text": "I believe in God the Father Almighty..." },
+      { "h3": "Prayers and Collects", "text": "Suffrages – Collect of the Day – evening collects." }
+    ]
+  },
+
+  "compline": {
+    "title": "Compline",
+    "sections": [
+      { "h3": "Opening", "text": "The Lord Almighty grant us a quiet night and a perfect end. Amen." },
+      { "h3": "Confession", "text": "Most merciful God, we confess to you..." },
+      { "h3": "Psalms", "type": "psalm", "lines": ["Psalms 4, 31:1–6, 91, or 134 as appointed."] },
+      { "h3": "Short Lesson", "type": "lesson", "text": "Be sober, be watchful..." },
+      { "h3": "Responsory & Nunc Dimittis", "type": "canticle", "text": "Into your hands, O Lord, I commend my spirit..." },
+      { "h3": "Collects", "text": "Visit this place, O Lord... keep us with perpetual light... (as appointed)" },
+      { "h3": "Conclusion", "text": "Let us bless the Lord. Thanks be to God." }
+    ]
+  },
+
   "family": {
-    "regular": { "title":"Family Prayer – Regular Form", "sections":[
-      {"h3":"Opening Sentence","text":"Grace to you and peace from God our Father and the Lord Jesus Christ."},
-      {"h3":"Confession & Remission/Absolution","text":"Almighty God, our heavenly Father..."},
-      {"h3":"The Lord’s Prayer","text":"Our Father, who art in heaven..."},
-      {"h3":"Psalm or Lesson","type":"lesson","text":"A brief reading or psalm suitable for family devotion."},
-      {"h3":"Prayers","text":"Intercessions and thanksgivings offered by the family."},
-      {"h3":"Blessing","text":"The grace of our Lord Jesus Christ..."}
-    ]},
-    "short": { "title":"Family Prayer – Short Form", "sections":[
-      {"h3":"Opening","text":"O God, make speed to save us. O Lord, make haste to help us."},
-      {"h3":"Reading","type":"lesson","text":"A brief verse of Scripture."},
-      {"h3":"Prayer","text":"Keep watch, dear Lord, with those who work, or watch, or weep this night..."},
-      {"h3":"Blessing","text":"May the blessing of God Almighty..."}
-    ]}
+    "regular": {
+      "title": "Family Prayer – Regular Form",
+      "sections": [
+        { "h3": "Opening Sentence", "text": "Grace to you and peace from God our Father and the Lord Jesus Christ." },
+        { "h3": "Confession & Remission/Absolution", "text": "Almighty God, our heavenly Father..." },
+        { "h3": "The Lord’s Prayer", "text": "Our Father, who art in heaven..." },
+        { "h3": "Psalm or Lesson", "type": "lesson", "text": "A brief reading or psalm suitable for family devotion." },
+        { "h3": "Prayers", "text": "Intercessions and thanksgivings offered by the family." },
+        { "h3": "Blessing", "text": "The grace of our Lord Jesus Christ..." }
+      ]
+    },
+    "short": {
+      "title": "Family Prayer – Short Form",
+      "sections": [
+        { "h3": "Opening", "text": "O God, make speed to save us. O Lord, make haste to help us." },
+        { "h3": "Reading", "type": "lesson", "text": "A brief verse of Scripture." },
+        { "h3": "Prayer", "text": "Keep watch, dear Lord, with those who work, or watch, or weep this night..." },
+        { "h3": "Blessing", "text": "May the blessing of God Almighty..." }
+      ]
+    }
+  },
+
+  "_dates": {
+    "2025-12-25": {
+      "collectOfTheDay": "Almighty God, who hast given us thy only-begotten Son to take our nature upon him...",
+      "morning": {
+        "sections": [
+          {
+            "h3": "Opening Sentence",
+            "text": "Behold, I bring you good tidings of great joy, which shall be to all people. (Luke 2:10)"
+          }
+        ]
+      },
+      "evening": {
+        "sections": [
+          {
+            "h3": "Opening Sentence",
+            "text": "The Word was made flesh, and dwelt among us. (John 1:14)"
+          }
+        ]
+      }
+    },
+    "2025-11-02": {
+      "collectOfTheDay": "O God, the Maker and Redeemer of all believers; grant to the faithful departed..."
+    }
   }
 }
+

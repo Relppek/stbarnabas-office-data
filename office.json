@@ -1,156 +1,48 @@
 {
-  "morning": {
-    "title": "Daily Morning Prayer",
-    "sections": [
-      {
-        "h3": "Opening Sentence",
-        "rubric": "Use a seasonal sentence when applicable.",
-        "text": "The LORD is in his holy temple; let all the earth keep silence before him."
-      },
-      {
-        "h3": "Confession",
-        "text": "Almighty and most merciful Father, we have erred and strayed from thy ways like lost sheep..."
-      },
-      {
-        "h3": "Absolution / Declaration of Remission",
-        "rubric": "If a priest is present, Absolution may be pronounced; otherwise the Declaration of Remission follows.",
-        "text": "Almighty God, our heavenly Father, who of his great mercy..."
-      },
-      {
-        "h3": "The Lord’s Prayer",
-        "text": "Our Father, who art in heaven, hallowed be thy Name..."
-      },
-      {
-        "h3": "Venite or Jubilate",
-        "type": "psalm",
-        "lines": [
-          "O come, let us sing unto the LORD;",
-          "let us heartily rejoice in the strength of our salvation."
-        ]
-      },
-      {
-        "h3": "Psalms Appointed",
-        "rubric": "From the daily lectionary; conclude with Gloria Patri.",
-        "text": "[Psalms for this day.]"
-      },
-      {
-        "h3": "First Lesson",
-        "type": "lesson",
-        "text": "A reading from the Old Testament."
-      },
-      {
-        "h3": "Canticle",
-        "type": "canticle",
-        "text": "Te Deum laudamus (or Benedicite)."
-      },
-      {
-        "h3": "Second Lesson",
-        "type": "lesson",
-        "text": "A reading from the New Testament."
-      },
-      {
-        "h3": "Canticle",
-        "type": "canticle",
-        "text": "Benedictus Dominus Deus."
-      },
-      {
-        "h3": "The Apostles’ Creed",
-        "text": "I believe in God the Father Almighty, Maker of heaven and earth..."
-      },
-      {
-        "h3": "Prayers & Collects",
-        "text": "Kyrie — The Lord’s Prayer — Suffrages — Collect of the Day — intercessions."
-      }
-    ]
-  },
-
-  "midday": {
-    "title": "Prayers at Midday",
-    "sections": [
-      { "h3": "Opening", "text": "O God, make speed to save us. O Lord, make haste to help us." },
-      { "h3": "Psalm", "type": "psalm", "lines": ["I lift up my eyes to the hills; from where is my help to come?"] },
-      { "h3": "Reading", "type": "lesson", "text": "A short lesson of Scripture." },
-      { "h3": "Prayers", "text": "Lord, have mercy. Christ, have mercy. Lord, have mercy." },
-      { "h3": "Conclusion", "text": "Let us bless the Lord. Thanks be to God." }
-    ]
-  },
-
-  "evening": {
-    "title": "Daily Evening Prayer",
-    "sections": [
-      { "h3": "Opening Sentence", "rubric": "Seasonal sentence here.", "text": "Jesus said, 'I am the light of the world...'" },
-      { "h3": "Confession", "text": "Almighty and most merciful Father, we have erred and strayed..." },
-      { "h3": "Absolution / Declaration of Remission", "text": "Grant, we beseech thee, merciful Lord..." },
-      { "h3": "The Lord’s Prayer", "text": "Our Father, who art in heaven..." },
-      { "h3": "Psalms Appointed", "text": "[Psalms for the evening Office.]" },
-      { "h3": "First Lesson", "type": "lesson", "text": "A reading from Scripture." },
-      { "h3": "Canticle", "type": "canticle", "text": "Magnificat (or Cantate Domino)." },
-      { "h3": "Second Lesson", "type": "lesson", "text": "A reading from Scripture." },
-      { "h3": "Canticle", "type": "canticle", "text": "Nunc dimittis (or Deus Misereatur)." },
-      { "h3": "The Apostles’ Creed", "text": "I believe in God the Father Almighty..." },
-      { "h3": "Prayers & Collects", "text": "Suffrages — Collect of the Day — evening collects." }
-    ]
+  "_meta": {
+    "version": 1,
+    "source": "REC — starter file",
+    "notes": "Only Compline populated for first test. Others can be added later."
   },
 
   "compline": {
     "title": "Compline",
     "sections": [
-      { "h3": "Opening", "text": "The Lord Almighty grant us a quiet night and a perfect end. Amen." },
-      { "h3": "Confession", "text": "Most merciful God, we confess to you..." },
-      { "h3": "Psalms", "type": "psalm", "lines": ["Psalm 4", "Psalm 134"] },
-      { "h3": "Short Lesson", "type": "lesson", "text": "Be sober, be watchful..." },
-      { "h3": "Responsory & Nunc Dimittis", "type": "canticle", "text": "Into your hands, O Lord, I commend my spirit..." },
-      { "h3": "Collects", "text": "Visit, we beseech thee, O Lord, this place... (and other appointed collects)" },
-      { "h3": "Conclusion", "text": "Let us bless the Lord. Thanks be to God." }
+      {
+        "h3": "Opening",
+        "text": "The Lord Almighty grant us a quiet night and a perfect end. Amen."
+      },
+      {
+        "h3": "Confession",
+        "text": "Most merciful God, we confess to you, before the whole company of heaven and one another, that we have sinned in thought, word, and deed, and in what we have failed to do."
+      },
+      {
+        "h3": "Psalms",
+        "type": "psalm",
+        "lines": [
+          "Psalm 4",
+          "Answer me when I call, O God of my righteousness..."
+        ],
+        "rubric": "Alternative psalms often used: 31:1–6, 91, or 134."
+      },
+      {
+        "h3": "Short Lesson",
+        "type": "lesson",
+        "text": "Be sober, be watchful. Your adversary the devil prowls around like a roaring lion, seeking someone to devour. Resist him, firm in your faith. (1 Peter 5:8–9a)"
+      },
+      {
+        "h3": "Responsory & Nunc Dimittis",
+        "type": "canticle",
+        "text": "Into your hands, O Lord, I commend my spirit... Lord, now lettest thou thy servant depart in peace… (Nunc Dimittis)."
+      },
+      {
+        "h3": "Collects",
+        "text": "Visit this place, O Lord, and drive far from it all snares of the enemy; let your holy angels dwell with us to preserve us in peace; and let your blessing be upon us always; through Jesus Christ our Lord. Amen."
+      },
+      {
+        "h3": "Conclusion",
+        "text": "Let us bless the Lord. Thanks be to God."
+      }
     ]
-  },
-
-  "family": {
-    "regular": {
-      "title": "Family Prayer – Regular Form",
-      "sections": [
-        { "h3": "Opening Sentence", "text": "Grace to you and peace from God our Father and the Lord Jesus Christ." },
-        { "h3": "Confession & Remission/Absolution", "text": "Almighty God, our heavenly Father..." },
-        { "h3": "The Lord’s Prayer", "text": "Our Father, who art in heaven..." },
-        { "h3": "Psalm or Lesson", "type": "lesson", "text": "A brief reading or psalm suitable for family devotion." },
-        { "h3": "Prayers", "text": "Intercessions and thanksgivings offered by the family." },
-        { "h3": "Blessing", "text": "The grace of our Lord Jesus Christ..." }
-      ]
-    },
-    "short": {
-      "title": "Family Prayer – Short Form",
-      "sections": [
-        { "h3": "Opening", "text": "O God, make speed to save us. O Lord, make haste to help us." },
-        { "h3": "Reading", "type": "lesson", "text": "A brief verse of Scripture." },
-        { "h3": "Prayer", "text": "Keep watch, dear Lord, with those who work, or watch, or weep this night..." },
-        { "h3": "Blessing", "text": "May the blessing of God Almighty..." }
-      ]
-    }
-  },
-
-  "collects": {
-    "12-25": "Almighty God, you have given your only‑begotten Son to take our nature upon him...",
-    "2025-08-23": "O God, who declarest thy almighty power chiefly in showing mercy and pity..."
-  },
-
-  "_dates": {
-    "2025-08-23": {
-      "evening": {
-        "sections": [
-          { "h3": "Proper Preface (override demo)", "text": "Special preface for this date." }
-        ]
-      },
-      "family": {
-        "regular": {
-          "replace": true,
-          "sections": [
-            { "h3": "Special Family Opening", "text": "A festival opening sentence for this date." },
-            { "h3": "Lesson", "type": "lesson", "text": "Short reading appropriate to the occasion." },
-            { "h3": "Prayer", "text": "Grant us grace, O Lord..." }
-          ]
-        }
-      },
-      "collect": "Grant, O Lord, that the course of this world may be so peaceably ordered by thy governance..."
-    }
   }
 }

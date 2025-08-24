@@ -1,63 +1,257 @@
-"compline": {
-  "title": "Compline",
-  "sections": [
-    {
-      "h3": "Opening Versicles",
-      "text": "Turn us, O God our Saviour: and let thine anger cease from us.\nO God, make speed to save us.\nO Lord, make haste to help us.\nGlory be to the Father, and to the Son, and to the Holy Ghost;\nAs it was in the beginning, is now, and ever shall be, world without end. Amen.\nAlleluia."
-    },
-    {
-      "h3": "Short Lesson",
-      "rubric": "1 Peter 5:8–9a",
-      "type": "lesson",
-      "text": "Be sober, be vigilant; because your adversary the devil, as a roaring lion, walketh about, seeking whom he may devour; whom resist steadfast in the faith."
-    },
-    {
-      "h3": "Versicles",
-      "text": "But thou, O LORD, have mercy upon us. Thanks be to God.\nOur help is in the Name of the Lord; Who hath made heaven and earth.\nBlessed be the Name of the Lord; From this time forth for evermore."
-    },
-    {
-      "h3": "Confession",
-      "text": "We confess to God Almighty, the Father, the Son, and the Holy Ghost, that we have sinned exceedingly in thought, word, and deed; through our fault, through our own fault, through our own most grievous fault. Therefore we beg God the Father, the Son, and the Holy Ghost, to have mercy upon us, to forgive us all that is past, and to grant that we may ever hereafter serve and please him in newness of life, to the honour and glory of his Name; through Jesus Christ our Lord. Amen."
-    },
-    {
-      "h3": "Absolution / Declaration",
-      "text": "May the Almighty and merciful Lord grant unto you absolution and remission of your sins, amendment of life, and the grace and consolation of his Holy Spirit. Amen."
-    },
-    {
-      "h3": "Doxology",
-      "text": "Blessed art thou, O LORD God of our fathers: and to be praised and glorified for ever.\nLet us bless the Father, and the Son, and the Holy Ghost: let us praise and exalt him for ever.\nBlessed art thou, O LORD, in the firmament of heaven: and to be praised and glorified, and exalted above all for ever.\nThe Almighty and most merciful Lord guard us, and give us his blessing. Amen."
-    },
-    {
-      "h3": "Psalm",
-      "rubric": "Psalm 134",
-      "type": "psalm",
-      "lines": [
-        "Behold now, praise the LORD, all ye servants of the LORD;",
-        "Ye that by night stand in the house of the LORD, even in the courts of the house of our God.",
-        "Lift up your hands in the sanctuary and praise the LORD.",
-        "The LORD that made heaven and earth give thee blessing out of Sion."
+{
+  "services": {
+    "morning": {
+      "title": "Daily Morning Prayer",
+      "sections": [
+        {
+          "h3": "Opening Sentence",
+          "rubric": "Seasonal sentence may replace this line.",
+          "text": "The LORD is in his holy temple; let all the earth keep silence before him."
+        },
+        {
+          "h3": "Invitation to Confession",
+          "text": "Let us humbly confess our sins unto Almighty God."
+        },
+        {
+          "h3": "Confession",
+          "text": "Almighty and most merciful Father, we have erred and strayed from thy ways like lost sheep..."
+        },
+        {
+          "h3": "Absolution / Declaration of Remission",
+          "rubric": "If a priest is present, Absolution may be pronounced; otherwise, the Declaration of Remission follows.",
+          "text": "Almighty God, our heavenly Father, who of his great mercy hath promised forgiveness of sins..."
+        },
+        {
+          "h3": "The Lord’s Prayer",
+          "text": "Our Father, who art in heaven, hallowed be thy Name..."
+        },
+        {
+          "h3": "Venite / Jubilate",
+          "type": "psalm",
+          "lines": [
+            "O come, let us sing unto the LORD;",
+            "let us heartily rejoice in the strength of our salvation."
+          ]
+        },
+        {
+          "h3": "Psalms Appointed",
+          "rubric": "From the daily lectionary; conclude with Gloria Patri.",
+          "text": "[Psalms will appear here.]"
+        },
+        {
+          "h3": "First Lesson",
+          "type": "lesson",
+          "text": "A reading from the Old Testament."
+        },
+        {
+          "h3": "Canticle after First Lesson",
+          "type": "canticle",
+          "text": "Te Deum laudamus / Benedicite, omnia opera / or other as appointed."
+        },
+        {
+          "h3": "Second Lesson",
+          "type": "lesson",
+          "text": "A reading from the New Testament."
+        },
+        {
+          "h3": "Canticle after Second Lesson",
+          "type": "canticle",
+          "text": "Benedictus Dominus Deus / or other as appointed."
+        },
+        {
+          "h3": "The Apostles’ Creed",
+          "text": "I believe in God the Father Almighty..."
+        },
+        {
+          "h3": "Prayers & Collects",
+          "text": "Kyrie – Lord’s Prayer – Suffrages – Collect of the Day – additional collects and intercessions."
+        }
       ]
     },
-    {
-      "h3": "Responsory",
-      "text": "Into thy hands, O Lord, I commend my spirit;\nFor thou hast redeemed me, O Lord, thou God of truth.\nKeep me as the apple of an eye; Hide me under the shadow of thy wings."
+
+    "midday": {
+      "title": "Prayers at Midday",
+      "sections": [
+        {
+          "h3": "Opening",
+          "text": "O God, make speed to save us. O Lord, make haste to help us."
+        },
+        {
+          "h3": "Psalm",
+          "type": "psalm",
+          "lines": [
+            "I lift up my eyes to the hills;",
+            "from where is my help to come?"
+          ]
+        },
+        {
+          "h3": "Reading",
+          "type": "lesson",
+          "text": "A short lesson of Scripture."
+        },
+        {
+          "h3": "Prayers",
+          "text": "Lord, have mercy. Christ, have mercy. Lord, have mercy."
+        },
+        {
+          "h3": "Conclusion",
+          "text": "Let us bless the Lord. Thanks be to God."
+        }
+      ]
     },
-    {
-      "h3": "Collects",
-      "text": "Visit, we beseech thee, O Lord, this place, and drive from it all the snares of the enemy; let thy holy angels dwell herein to preserve us in peace; and may thy blessing be upon us evermore; through Jesus Christ our Lord. Amen.\n\nLighten our darkness, we beseech thee, O Lord; and by thy great mercy defend us from all perils and dangers of this night; for the love of thy only Son, our Saviour Jesus Christ. Amen."
+
+    "evening": {
+      "title": "Daily Evening Prayer",
+      "sections": [
+        {
+          "h3": "Opening Sentence",
+          "rubric": "Seasonal sentence may replace this line.",
+          "text": "Jesus spoke, saying, “I am the light of the world; whoever follows me will not walk in darkness, but will have the light of life.”"
+        },
+        {
+          "h3": "Confession",
+          "text": "Almighty and most merciful Father, we have erred and strayed from thy ways like lost sheep..."
+        },
+        {
+          "h3": "Absolution / Declaration of Remission",
+          "text": "Grant, we beseech thee, merciful Lord, to thy faithful people pardon and peace..."
+        },
+        {
+          "h3": "The Lord’s Prayer",
+          "text": "Our Father, who art in heaven, hallowed be thy Name..."
+        },
+        {
+          "h3": "Psalms Appointed",
+          "text": "[Psalms for the evening Office.]"
+        },
+        {
+          "h3": "First Lesson",
+          "type": "lesson",
+          "text": "A reading from Holy Scripture."
+        },
+        {
+          "h3": "Canticle after First Lesson",
+          "type": "canticle",
+          "text": "Magnificat / Cantate Domino / etc."
+        },
+        {
+          "h3": "Second Lesson",
+          "type": "lesson",
+          "text": "A reading from Holy Scripture."
+        },
+        {
+          "h3": "Canticle after Second Lesson",
+          "type": "canticle",
+          "text": "Nunc dimittis / Deus Misereatur / etc."
+        },
+        {
+          "h3": "The Apostles’ Creed",
+          "text": "I believe in God the Father Almighty..."
+        },
+        {
+          "h3": "Prayers & Collects",
+          "text": "Suffrages – Collect of the Day – evening collects."
+        }
+      ]
     },
-    {
-      "h3": "Nunc Dimittis",
-      "type": "canticle",
-      "text": "LORD, now lettest thou thy servant depart in peace, according to thy word.\nFor mine eyes have seen thy salvation;\nWhich thou hast prepared before the face of all people;\nTo be a light to lighten the Gentiles, and to be the glory of thy people Israel.\nGlory be to the Father, and to the Son, and to the Holy Ghost;\nAs it was in the beginning, is now, and ever shall be, world without end. Amen."
+
+    "compline": {
+      "title": "Compline",
+      "sections": [
+        {
+          "h3": "Opening",
+          "text": "The Lord Almighty grant us a quiet night and a perfect end. Amen."
+        },
+        {
+          "h3": "Confession",
+          "text": "Most merciful God, we confess to you, before the whole company of heaven and one another, that we have sinned in thought, word, and deed, and in what we have failed to do."
+        },
+        {
+          "h3": "Psalms",
+          "type": "psalm",
+          "lines": [
+            "Answer me when I call, O God of my righteousness;",
+            "you set me at liberty when I was in trouble; have mercy on me and hear my prayer."
+          ]
+        },
+        {
+          "h3": "Short Lesson",
+          "type": "lesson",
+          "text": "Be sober, be watchful; for your adversary the devil prowls around like a roaring lion, seeking someone to devour. Resist him, firm in your faith. (1 Peter 5:8–9)"
+        },
+        {
+          "h3": "Responsory & Nunc Dimittis",
+          "type": "canticle",
+          "text": "Into your hands, O Lord, I commend my spirit... Lord, now lettest thou thy servant depart in peace..."
+        },
+        {
+          "h3": "Collects",
+          "text": "Visit this place, O Lord, and drive far from it all snares of the enemy; let your holy angels dwell with us to preserve us in peace..."
+        },
+        {
+          "h3": "Conclusion",
+          "text": "Let us bless the Lord. Thanks be to God."
+        }
+      ]
     },
-    {
-      "h3": "Anthem",
-      "text": "Save us, O Lord, while waking, and defend us while sleeping: that when we are awake we may watch with Christ, and when we sleep we may rest in peace."
-    },
-    {
-      "h3": "Conclusion",
-      "text": "We will lay us down in peace and take our rest; For it is thou, Lord, only, that makest us dwell in safety.\nLet us bless the Lord; Thanks be to God.\nThe Almighty and merciful Lord, the Father, the Son, and the Holy Ghost, bless us and keep us. Amen."
+
+    "family": {
+      "regular": {
+        "title": "Family Prayer – Regular Form",
+        "sections": [
+          {
+            "h3": "Opening Sentence",
+            "text": "Grace to you and peace from God our Father and the Lord Jesus Christ."
+          },
+          {
+            "h3": "Confession & Declaration of Remission",
+            "text": "Almighty God, our heavenly Father, we confess that we have sinned against thee..."
+          },
+          {
+            "h3": "The Lord’s Prayer",
+            "text": "Our Father, who art in heaven..."
+          },
+          {
+            "h3": "Psalm or Lesson",
+            "type": "lesson",
+            "text": "A brief reading or psalm suitable for family devotion."
+          },
+          {
+            "h3": "Prayers",
+            "text": "Intercessions and thanksgivings offered by the family."
+          },
+          {
+            "h3": "Blessing",
+            "text": "The grace of our Lord Jesus Christ, and the love of God, and the fellowship of the Holy Ghost, be with us all evermore. Amen."
+          }
+        ]
+      },
+      "short": {
+        "title": "Family Prayer – Short Form",
+        "sections": [
+          {
+            "h3": "Opening",
+            "text": "O God, make speed to save us. O Lord, make haste to help us."
+          },
+          {
+            "h3": "Reading",
+            "type": "lesson",
+            "text": "A brief verse of Scripture."
+          },
+          {
+            "h3": "Prayer",
+            "text": "Keep watch, dear Lord, with those who work, or watch, or weep this night..."
+          },
+          {
+            "h3": "Blessing",
+            "text": "May the blessing of God Almighty, the Father, the Son, and the Holy Ghost, be amongst us, and remain with us always. Amen."
+          }
+        ]
+      }
     }
-  ]
+  },
+
+  "collects": {},
+
+  "_overrides": {}
 }

@@ -4,12 +4,8 @@
     "sections": [
       {
         "h3": "Opening Sentence",
-        "rubric": "Replace with the seasonal opening sentence.",
+        "rubric": "Use a seasonal sentence when applicable.",
         "text": "The LORD is in his holy temple; let all the earth keep silence before him."
-      },
-      {
-        "h3": "Invitation to Confession",
-        "text": "Let us humbly confess our sins unto Almighty God."
       },
       {
         "h3": "Confession",
@@ -17,19 +13,15 @@
       },
       {
         "h3": "Absolution / Declaration of Remission",
-        "rubric": "If a priest is present, the Absolution may be pronounced; otherwise the Declaration of Remission follows.",
+        "rubric": "If a priest is present, Absolution may be pronounced; otherwise the Declaration of Remission follows.",
         "text": "Almighty God, our heavenly Father, who of his great mercy..."
       },
       {
         "h3": "The Lord’s Prayer",
-        "text": "Our Father, who art in heaven..."
+        "text": "Our Father, who art in heaven, hallowed be thy Name..."
       },
       {
-        "h3": "Versicles and Responses",
-        "text": "O Lord, open thou our lips. And our mouth shall show forth thy praise."
-      },
-      {
-        "h3": "Venite / Jubilate",
+        "h3": "Venite or Jubilate",
         "type": "psalm",
         "lines": [
           "O come, let us sing unto the LORD;",
@@ -38,36 +30,36 @@
       },
       {
         "h3": "Psalms Appointed",
-        "rubric": "From the daily lectionary; conclude with the Gloria Patri.",
-        "text": "[Psalms for the day.]"
+        "rubric": "From the daily lectionary; conclude with Gloria Patri.",
+        "text": "[Psalms for this day.]"
       },
       {
         "h3": "First Lesson",
         "type": "lesson",
-        "text": "[First reading text or reference.]"
+        "text": "A reading from the Old Testament."
       },
       {
-        "h3": "Canticle after First Lesson",
+        "h3": "Canticle",
         "type": "canticle",
-        "text": "Te Deum laudamus / Benedicite, omnia opera / or other as appointed."
+        "text": "Te Deum laudamus (or Benedicite)."
       },
       {
         "h3": "Second Lesson",
         "type": "lesson",
-        "text": "[Second reading text or reference.]"
+        "text": "A reading from the New Testament."
       },
       {
-        "h3": "Canticle after Second Lesson",
+        "h3": "Canticle",
         "type": "canticle",
-        "text": "Benedictus Dominus Deus / or other as appointed."
+        "text": "Benedictus Dominus Deus."
       },
       {
         "h3": "The Apostles’ Creed",
-        "text": "I believe in God the Father Almighty..."
+        "text": "I believe in God the Father Almighty, Maker of heaven and earth..."
       },
       {
-        "h3": "Prayers and Collects",
-        "text": "Kyrie – Lord’s Prayer – Suffrages – Collect of the Day – additional collects and intercessions."
+        "h3": "Prayers & Collects",
+        "text": "Kyrie — The Lord’s Prayer — Suffrages — Collect of the Day — intercessions."
       }
     ]
   },
@@ -76,8 +68,8 @@
     "title": "Prayers at Midday",
     "sections": [
       { "h3": "Opening", "text": "O God, make speed to save us. O Lord, make haste to help us." },
-      { "h3": "Psalm", "type": "psalm", "lines": ["Psalm 121 (or a short psalm as appointed)."] },
-      { "h3": "Reading", "type": "lesson", "text": "Short lesson." },
+      { "h3": "Psalm", "type": "psalm", "lines": ["I lift up my eyes to the hills; from where is my help to come?"] },
+      { "h3": "Reading", "type": "lesson", "text": "A short lesson of Scripture." },
       { "h3": "Prayers", "text": "Lord, have mercy. Christ, have mercy. Lord, have mercy." },
       { "h3": "Conclusion", "text": "Let us bless the Lord. Thanks be to God." }
     ]
@@ -86,23 +78,17 @@
   "evening": {
     "title": "Daily Evening Prayer",
     "sections": [
-      {
-        "h3": "Opening Sentence",
-        "rubric": "Replace with the seasonal opening sentence.",
-        "text": "Jesus spoke, saying, 'I am the light of the world...'"
-      },
-      { "h3": "Invitation to Confession", "text": "Let us humbly confess our sins to Almighty God." },
-      { "h3": "Confession", "text": "Almighty and most merciful Father..." },
+      { "h3": "Opening Sentence", "rubric": "Seasonal sentence here.", "text": "Jesus said, 'I am the light of the world...'" },
+      { "h3": "Confession", "text": "Almighty and most merciful Father, we have erred and strayed..." },
       { "h3": "Absolution / Declaration of Remission", "text": "Grant, we beseech thee, merciful Lord..." },
       { "h3": "The Lord’s Prayer", "text": "Our Father, who art in heaven..." },
-      { "h3": "Versicles and Responses", "text": "O Lord, open thou our lips. And our mouth shall show forth thy praise." },
       { "h3": "Psalms Appointed", "text": "[Psalms for the evening Office.]" },
-      { "h3": "First Lesson", "type": "lesson", "text": "[First reading text or reference.]" },
-      { "h3": "Canticle after First Lesson", "type": "canticle", "text": "Magnificat / Cantate Domino / etc." },
-      { "h3": "Second Lesson", "type": "lesson", "text": "[Second reading text or reference.]" },
-      { "h3": "Canticle after Second Lesson", "type": "canticle", "text": "Nunc dimittis / Deus Misereatur / etc." },
+      { "h3": "First Lesson", "type": "lesson", "text": "A reading from Scripture." },
+      { "h3": "Canticle", "type": "canticle", "text": "Magnificat (or Cantate Domino)." },
+      { "h3": "Second Lesson", "type": "lesson", "text": "A reading from Scripture." },
+      { "h3": "Canticle", "type": "canticle", "text": "Nunc dimittis (or Deus Misereatur)." },
       { "h3": "The Apostles’ Creed", "text": "I believe in God the Father Almighty..." },
-      { "h3": "Prayers and Collects", "text": "Suffrages – Collect of the Day – evening collects." }
+      { "h3": "Prayers & Collects", "text": "Suffrages — Collect of the Day — evening collects." }
     ]
   },
 
@@ -111,10 +97,10 @@
     "sections": [
       { "h3": "Opening", "text": "The Lord Almighty grant us a quiet night and a perfect end. Amen." },
       { "h3": "Confession", "text": "Most merciful God, we confess to you..." },
-      { "h3": "Psalms", "type": "psalm", "lines": ["Psalms 4, 31:1–6, 91, or 134 as appointed."] },
+      { "h3": "Psalms", "type": "psalm", "lines": ["Psalm 4", "Psalm 134"] },
       { "h3": "Short Lesson", "type": "lesson", "text": "Be sober, be watchful..." },
       { "h3": "Responsory & Nunc Dimittis", "type": "canticle", "text": "Into your hands, O Lord, I commend my spirit..." },
-      { "h3": "Collects", "text": "Visit this place, O Lord... keep us with perpetual light... (as appointed)" },
+      { "h3": "Collects", "text": "Visit, we beseech thee, O Lord, this place... (and other appointed collects)" },
       { "h3": "Conclusion", "text": "Let us bless the Lord. Thanks be to God." }
     ]
   },
@@ -142,29 +128,29 @@
     }
   },
 
+  "collects": {
+    "12-25": "Almighty God, you have given your only‑begotten Son to take our nature upon him...",
+    "2025-08-23": "O God, who declarest thy almighty power chiefly in showing mercy and pity..."
+  },
+
   "_dates": {
-    "2025-12-25": {
-      "collectOfTheDay": "Almighty God, who hast given us thy only-begotten Son to take our nature upon him...",
-      "morning": {
-        "sections": [
-          {
-            "h3": "Opening Sentence",
-            "text": "Behold, I bring you good tidings of great joy, which shall be to all people. (Luke 2:10)"
-          }
-        ]
-      },
+    "2025-08-23": {
       "evening": {
         "sections": [
-          {
-            "h3": "Opening Sentence",
-            "text": "The Word was made flesh, and dwelt among us. (John 1:14)"
-          }
+          { "h3": "Proper Preface (override demo)", "text": "Special preface for this date." }
         ]
-      }
-    },
-    "2025-11-02": {
-      "collectOfTheDay": "O God, the Maker and Redeemer of all believers; grant to the faithful departed..."
+      },
+      "family": {
+        "regular": {
+          "replace": true,
+          "sections": [
+            { "h3": "Special Family Opening", "text": "A festival opening sentence for this date." },
+            { "h3": "Lesson", "type": "lesson", "text": "Short reading appropriate to the occasion." },
+            { "h3": "Prayer", "text": "Grant us grace, O Lord..." }
+          ]
+        }
+      },
+      "collect": "Grant, O Lord, that the course of this world may be so peaceably ordered by thy governance..."
     }
   }
 }
-

@@ -1,48 +1,63 @@
-{
-  "_meta": {
-    "version": 1,
-    "source": "REC — starter file",
-    "notes": "Only Compline populated for first test. Others can be added later."
-  },
-
-  "compline": {
-    "title": "Compline",
-    "sections": [
-      {
-        "h3": "Opening",
-        "text": "The Lord Almighty grant us a quiet night and a perfect end. Amen."
-      },
-      {
-        "h3": "Confession",
-        "text": "Most merciful God, we confess to you, before the whole company of heaven and one another, that we have sinned in thought, word, and deed, and in what we have failed to do."
-      },
-      {
-        "h3": "Psalms",
-        "type": "psalm",
-        "lines": [
-          "Psalm 4",
-          "Answer me when I call, O God of my righteousness..."
-        ],
-        "rubric": "Alternative psalms often used: 31:1–6, 91, or 134."
-      },
-      {
-        "h3": "Short Lesson",
-        "type": "lesson",
-        "text": "Be sober, be watchful. Your adversary the devil prowls around like a roaring lion, seeking someone to devour. Resist him, firm in your faith. (1 Peter 5:8–9a)"
-      },
-      {
-        "h3": "Responsory & Nunc Dimittis",
-        "type": "canticle",
-        "text": "Into your hands, O Lord, I commend my spirit... Lord, now lettest thou thy servant depart in peace… (Nunc Dimittis)."
-      },
-      {
-        "h3": "Collects",
-        "text": "Visit this place, O Lord, and drive far from it all snares of the enemy; let your holy angels dwell with us to preserve us in peace; and let your blessing be upon us always; through Jesus Christ our Lord. Amen."
-      },
-      {
-        "h3": "Conclusion",
-        "text": "Let us bless the Lord. Thanks be to God."
-      }
-    ]
-  }
+"compline": {
+  "title": "Compline",
+  "sections": [
+    {
+      "h3": "Opening Versicles",
+      "text": "Turn us, O God our Saviour: and let thine anger cease from us.\nO God, make speed to save us.\nO Lord, make haste to help us.\nGlory be to the Father, and to the Son, and to the Holy Ghost;\nAs it was in the beginning, is now, and ever shall be, world without end. Amen.\nAlleluia."
+    },
+    {
+      "h3": "Short Lesson",
+      "rubric": "1 Peter 5:8–9a",
+      "type": "lesson",
+      "text": "Be sober, be vigilant; because your adversary the devil, as a roaring lion, walketh about, seeking whom he may devour; whom resist steadfast in the faith."
+    },
+    {
+      "h3": "Versicles",
+      "text": "But thou, O LORD, have mercy upon us. Thanks be to God.\nOur help is in the Name of the Lord; Who hath made heaven and earth.\nBlessed be the Name of the Lord; From this time forth for evermore."
+    },
+    {
+      "h3": "Confession",
+      "text": "We confess to God Almighty, the Father, the Son, and the Holy Ghost, that we have sinned exceedingly in thought, word, and deed; through our fault, through our own fault, through our own most grievous fault. Therefore we beg God the Father, the Son, and the Holy Ghost, to have mercy upon us, to forgive us all that is past, and to grant that we may ever hereafter serve and please him in newness of life, to the honour and glory of his Name; through Jesus Christ our Lord. Amen."
+    },
+    {
+      "h3": "Absolution / Declaration",
+      "text": "May the Almighty and merciful Lord grant unto you absolution and remission of your sins, amendment of life, and the grace and consolation of his Holy Spirit. Amen."
+    },
+    {
+      "h3": "Doxology",
+      "text": "Blessed art thou, O LORD God of our fathers: and to be praised and glorified for ever.\nLet us bless the Father, and the Son, and the Holy Ghost: let us praise and exalt him for ever.\nBlessed art thou, O LORD, in the firmament of heaven: and to be praised and glorified, and exalted above all for ever.\nThe Almighty and most merciful Lord guard us, and give us his blessing. Amen."
+    },
+    {
+      "h3": "Psalm",
+      "rubric": "Psalm 134",
+      "type": "psalm",
+      "lines": [
+        "Behold now, praise the LORD, all ye servants of the LORD;",
+        "Ye that by night stand in the house of the LORD, even in the courts of the house of our God.",
+        "Lift up your hands in the sanctuary and praise the LORD.",
+        "The LORD that made heaven and earth give thee blessing out of Sion."
+      ]
+    },
+    {
+      "h3": "Responsory",
+      "text": "Into thy hands, O Lord, I commend my spirit;\nFor thou hast redeemed me, O Lord, thou God of truth.\nKeep me as the apple of an eye; Hide me under the shadow of thy wings."
+    },
+    {
+      "h3": "Collects",
+      "text": "Visit, we beseech thee, O Lord, this place, and drive from it all the snares of the enemy; let thy holy angels dwell herein to preserve us in peace; and may thy blessing be upon us evermore; through Jesus Christ our Lord. Amen.\n\nLighten our darkness, we beseech thee, O Lord; and by thy great mercy defend us from all perils and dangers of this night; for the love of thy only Son, our Saviour Jesus Christ. Amen."
+    },
+    {
+      "h3": "Nunc Dimittis",
+      "type": "canticle",
+      "text": "LORD, now lettest thou thy servant depart in peace, according to thy word.\nFor mine eyes have seen thy salvation;\nWhich thou hast prepared before the face of all people;\nTo be a light to lighten the Gentiles, and to be the glory of thy people Israel.\nGlory be to the Father, and to the Son, and to the Holy Ghost;\nAs it was in the beginning, is now, and ever shall be, world without end. Amen."
+    },
+    {
+      "h3": "Anthem",
+      "text": "Save us, O Lord, while waking, and defend us while sleeping: that when we are awake we may watch with Christ, and when we sleep we may rest in peace."
+    },
+    {
+      "h3": "Conclusion",
+      "text": "We will lay us down in peace and take our rest; For it is thou, Lord, only, that makest us dwell in safety.\nLet us bless the Lord; Thanks be to God.\nThe Almighty and merciful Lord, the Father, the Son, and the Holy Ghost, bless us and keep us. Amen."
+    }
+  ]
 }
